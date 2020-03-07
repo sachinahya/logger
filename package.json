@@ -1,6 +1,6 @@
 {
   "name": "@sachinahya/logger",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple Node logger using winston.",
   "license": "MIT",
   "repository": {
@@ -21,9 +21,11 @@
     "prepublish": "tsc"
   },
   "dependencies": {
-    "@types/node": "^13.9.0",
     "date-fns": "^2.10.0",
-    "typescript": "^3.8.3",
     "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "typescript": "^3.8.3"
   }
 }

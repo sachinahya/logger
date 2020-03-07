@@ -1,0 +1,22 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "A simple Node logger using winston.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinahya/logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sachinahya/logger/issues"
+  },
+  "homepage": "https://github.com/sachinahya/logger#readme",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^13.9.0",
+    "date-fns": "^2.10.0",
+    "typescript": "^3.8.3",
+    "winston": "^3.2.1"
+  }
+}
